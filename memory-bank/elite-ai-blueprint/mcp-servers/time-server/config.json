@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "time": {
+      "command": "python",
+      "args": ["-m", "mcp_server_time"],
+      "env": {
+        "TZ": "UTC"
+      },
+      "description": "Time and timezone utilities for Elite Options System",
+      "capabilities": [
+        "get_current_time",
+        "convert_timezone",
+        "format_time",
+        "parse_time",
+        "time_calculations"
+      ],
+      "integration_notes": {
+        "purpose": "Complements the existing timestamp management system",
+        "use_cases": [
+          "Market hours validation",
+          "Trading session timing",
+          "Cross-timezone coordination",
+          "Historical data timestamping",
+          "Real-time clock synchronization"
+        ],
+        "compatibility": "Works alongside AI Blueprint timestamp management utilities"
+      }
+    }
+  },
+  "integration_status": {
+    "installed": true,
+    "tested": true,
+    "configured": true,
+    "ready_for_use": true
+  },
+  "configuration": {
+    "default_timezone": "UTC",
+    "fallback_timezone": "UTC",
+    "time_format": "ISO8601",
+    "precision": "microseconds"
+  }
+}

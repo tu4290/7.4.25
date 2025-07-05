@@ -1,0 +1,3 @@
+{"type":"entity","name":"Elite Options System v2.5","entityType":"project","observations":["Advanced options trading analytics platform","Real-time data processing and flow analysis","Comprehensive dashboard with multiple visualization modes","Built with Python, FastAPI, and Streamlit"],"createdAt":"2025-06-15T20:03:43.240Z","version":1}
+{"type":"entity","name":"Dashboard Application","entityType":"component","observations":["Streamlit-based web interface","Real-time data visualization","Multiple analysis modes","Responsive design for trading workflows"],"createdAt":"2025-06-15T20:03:52.653Z","version":1}
+{"type":"relation","from":"Elite Options System v2.5","to":"Dashboard Application","relationType":"contains","createdAt":"2025-06-15T20:03:56.507Z","version":1}
